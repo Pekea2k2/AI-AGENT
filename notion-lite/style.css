@@ -10,6 +10,7 @@ body {
     color: #eee;
 }
 
+
 .container {
     width: 80%;
     margin: auto;
@@ -24,6 +25,7 @@ body {
 .notes.list .note {
     width: 100%;
 }
+
 
 .note {
     background: #fff;
@@ -40,6 +42,7 @@ body {
 }
 .note.due {
     border-color: red;
+
 }
 
 .note h2 {
@@ -51,6 +54,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 
 #form-container {
     background: #fff;
@@ -82,3 +86,4 @@ button {
     color: #fff;
     padding: 5px 10px;
 }
+
