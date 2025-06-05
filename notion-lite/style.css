@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+.dark {
+    background-color: #1e1e1e;
+    color: #eee;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -24,10 +29,21 @@ body {
     width: calc(33% - 20px);
     box-sizing: border-box;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.note.pinned {
+    border-color: gold;
 }
 
 .note h2 {
     margin-top: 0;
+}
+
+.note .note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #form-container {
@@ -40,5 +56,20 @@ body {
 
 button {
     margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn {
+    text-decoration: none;
+    background: #007bff;
+    color: #fff;
     padding: 5px 10px;
 }
